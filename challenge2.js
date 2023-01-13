@@ -12,4 +12,4 @@ var bikes = ["motorcYcle", "MounTain", "unICycle", "RecuMbent"];
 for (var i = 0; i < bikes.length; i++) {
     console.log(bikes[i].toLowerCase());
 }
-// I got hung up then googled the lowercase method and found out I needed the parenthesis.
+// I got hung up then googled the lowercase method and found out I needed the parenthesis.😅

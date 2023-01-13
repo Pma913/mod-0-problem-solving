@@ -10,7 +10,10 @@
 var peopleNames = ["Lewis", "Trina", "Sandy", "Lowel", "Thomas", "tonka"];
 
 for (var i = 0; i < peopleNames.length; i++) {
-    if (peopleNames[i].startsWith('T')) {
+    if (peopleNames[i].startsWith('T') || peopleNames[i].startsWith('t')) {
         console.log(peopleNames[i]);
     }
 }
+
+// Ran as expected. So I added an or statement as well (just for fun) so 
+// we can take into account when folks forget to capitalize 😃
